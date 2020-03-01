@@ -1,11 +1,7 @@
-package sample
+package poi
 
 // Import the required classes
-import org.apache.poi.ss.usermodel.{
-  WorkbookFactory
-  ,
-  DataFormatter
-}
+import org.apache.poi.ss.usermodel.{WorkbookFactory, DataFormatter}
 import java.io.{File, FileOutputStream}
 object XSSFMain extends App {
   // Automatically convert Java collections to Scala equivalents
